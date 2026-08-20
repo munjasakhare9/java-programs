@@ -8,4 +8,7 @@ class Demo2 extends Demo1{
 	void m6(){
 		System.out.println("m6 method of Demo1");
 	}
+	void display(){
+		System.out.println("dispaly method of demo2");
+	}
 }

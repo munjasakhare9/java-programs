@@ -8,4 +8,7 @@ class Demo1{
 	void m3(){
 		System.out.println("m3 method of Demo1");
 	}
+	void display(){
+		System.out.println("dispaly method of demo1");
+	}
 }
