@@ -5,7 +5,7 @@ class ArmstrongNumber{
 		int count=0;
 		int sum=0;
 		if(num==0){
-			System.out.println(num+" is an aArmstrong Number.");
+			System.out.println(num+" is an Armstrong Number.");
 			return;
 		}
 		while(temp!=0){
