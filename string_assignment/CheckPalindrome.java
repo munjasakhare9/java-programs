@@ -5,7 +5,7 @@ class CheckPalindrome{
 		int end=s1.length()-1;
 		while(start<end){
 			if(s1.charAt(start)!=s1.charAt(end)){
-				System.out.println(s1+"is Not a Palindrome");
+				System.out.println(s1+" is Not a Palindrome");
 				return;
 			}
 			start++;
