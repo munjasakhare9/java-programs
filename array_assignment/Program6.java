@@ -8,7 +8,7 @@ class Program6{
 				secondMax=max;
 				max=arr[i];
 			}
-			else if(secondMax<arr[i] && arr[i]<max){
+			else if(secondMax<arr[i] && arr[i]!=max){
 				secondMax=arr[i];
 			}
 		}
