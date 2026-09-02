@@ -1,6 +1,6 @@
 class Program18{
 	public static void main(String args[]){
-		int num=11124;
+		int num=1124;
 		int temp=num;
 		int sum=0;
 		int product=1;
