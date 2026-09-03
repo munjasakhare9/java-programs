@@ -4,14 +4,12 @@ class Program14{
 		StringBuilder sb=new StringBuilder(s1);
 		for(int i=0;i<sb.length();i++){
 			char ch=sb.charAt(i);
-			if(ch==Character.toLowerCase(ch)){
-				sb.deleteCharAt(i);
-				sb.insert(i,Character.toUpperCase(ch));
-			}
-			else if(ch==Character.toUpperCase(ch)){
-				sb.deleteCharAt(i);
-				sb.insert(i,Character.toLowerCase(ch));
-			}
+			if(Character.isLowerCase(ch)){
+                sb.setCharAt(i, Character.toUpperCase(ch));
+            }
+            else if(Character.isUpperCase(ch)){
+                sb.setCharAt(i, Character.toLowerCase(ch));
+            }
 		}
 		System.out.println(sb);
 	}
