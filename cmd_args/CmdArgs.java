@@ -10,5 +10,12 @@ class CmdArgs{
 		int y = Integer.parseInt(s2);
 
 		System.out.println (x + y);
+		
+		int sum=0;
+		for(String i:args){
+			int num=Integer.parseInt(i);
+			sum+=num;
+		}
+		System.out.println("Sum of total Element :- "+sum);
 	}	
 }
