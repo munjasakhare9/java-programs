@@ -27,3 +27,4 @@ public class Program22b {
 
         System.out.println(checkPangram(s));
     }
+}
