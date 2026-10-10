@@ -15,7 +15,7 @@ class Program23c {
     }
 
     public static void main(String[] args) {
-        String s1 = "i am java developer                since 2020c";
+        String s1 = "i am java developer  since 2020c";
         System.out.println(countNumberOfWords(s1));
     }
 }
