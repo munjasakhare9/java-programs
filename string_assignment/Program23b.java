@@ -10,7 +10,7 @@ class Program23b{
 		return count;
 	}
 	public static void main(String args[]){
-		String s1="i am java developer since 2020";
+		String s1="i am java developer since 2020c";
 		int count=countNumberOfWords(s1);
 		System.out.println(count);
 	}
