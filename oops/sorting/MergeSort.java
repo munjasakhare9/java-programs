@@ -9,7 +9,7 @@ class MergeSort{
         if(start>=end){
             return;
         }
-        int mid=start+(end-start)/2;
+        int mid=start+(end-start)/2;//(start+end)/2
         divide(a,start,mid);
         divide(a,mid+1,end);
         conquer(a, start, mid, end);
